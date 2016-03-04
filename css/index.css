@@ -1,0 +1,387 @@
+body,p,ul,li,ol,dl,dd,dt,h1,h2,h3,h4,h5,h6,hr,input{
+   margin:0;
+   padding:0;
+   list-style:none;/*»•µÙ–°‘≤µ„*/
+   font-family:Arail,"Microsoft Yahei";
+}
+
+.phones,.img31,#imgs1,#imgs2,#imgs3,.pp1,.pp2{
+   border:none;
+}
+/*******************************/
+.mainbavbox{
+   width:100%;
+   height:100px;
+   background:black;
+   background-image:url(../image/top-black-bg.jpg);
+}
+.mainbav{
+  width:1120px;
+  height:69px;
+  margin:0 auto;
+  padding-top:31px;
+  background-image:url(../image/top-pumel-bg.jpg);
+  
+}
+.mainbav-left{
+   width:161px;
+   height:38px;
+   float:left;
+
+}
+.mainbav-right{
+   width:800px;
+   height:38px;
+   //background:yellow;
+   float:right;
+   line-height:38px;
+}
+.mainbav-right-li{
+  float:left;
+  margin-left:30px;
+  color:#d3d3d3;
+  font-size:14px;
+  font-family:"Arial","Microsoft Yahei";
+}
+
+.bav-word:hover{color:white}
+a{
+   text-decoration:none;
+   color:#d3d3d3;
+	}
+.tongdao{
+   display:block;
+   width:86px;
+   height:26px;
+   border:1px solid #d3d3d3; 
+   border-radius:5px;
+   line-height:26px;
+   text-align:center;
+   margin:5px 0px;
+   color:#fff;
+   margin-left:-5px;
+}
+.tongdao:hover{border-color:white}
+.goumai{
+  display:block;
+  width:115px;
+  height:28px;
+  border-radius:5px;
+  line-height:26px;
+  text-align:center;
+  margin:5px 0px;
+  color:#fff;
+  margin-left:-10px;
+  background:#6B89D5;
+}
+.goumai:hover{background-color:#fff;
+              color:black;
+  }
+/*******************************/
+.topnavbox{
+   width:100%;
+   height:38px;
+   background:#E0E1E3;
+}
+.topnav{
+   width:1120px;
+   height:38px;
+   background:#E1E2E4;
+   margin:0 auto;
+   line-height:38px;
+
+}
+.topnav-left{
+   width:120px;
+   height:38px;
+   float:left;
+
+}
+.topimgs{
+  height:11px;
+  width:14px;
+  overflow:hidden;
+  margin-right:9px;
+  float:left;
+  margin-top:13px;
+}
+
+.top1{
+   width:24px;
+   height:16px;
+   float:left;
+}
+.topsl{
+   color:#333;
+   font-size:12px;
+}
+
+.jts{
+	width:14px;
+	height:38px;
+    float:right;
+}
+.jt:hover{
+  transform:rotate(180deg);
+  transition:all 2s linear;
+}
+.jt{
+   width:7px;
+   height:5px;
+   float:right;
+   line-height:38;
+   margin-top:16px;
+	margin-right:20px;
+}
+.topnav-right{
+   width:120px;
+   height:38px;
+   float:right;
+   line-height:38px;
+   
+}
+.topnav-right-li{
+  float:left;
+
+}
+.top-word{
+   margin-right:11px;
+   font-size:12px;
+   color:#333;
+}
+#top2{
+   margin-right:11px;
+   font-size:14px;
+}
+/************************************/
+.bannerbox{
+   width:100%;
+   height:1150px;
+   background:#F8F8F8;
+   background-image:url(../image/index-background-image.jpg);
+   background-position:center;
+}
+.banner{
+   width:1120px;
+   height:1075px;
+   //background:#EEEEEE;
+   margin:0 auto;
+   padding-top:75px;
+}
+.font1{
+   margin:0 auto;
+   text-align:center;
+   
+}
+.phone{
+     width:750px;
+	 height:930px;
+     margin:0 auto;
+	 margin-top:85px;
+	 overflow:hidden;
+	 
+}
+.phones{
+   float:left;
+   margin-right:30px;
+}
+#p1{
+  text-align:center;
+}
+#p2{
+  margin-left:-100px;
+  text-align:center;
+}
+
+/*******************************/
+
+
+/****************************/
+.shopbox{
+   width:100%;
+   height:186px;
+   background:#FFFFFF;
+   margin-top:36px;
+   
+}
+.shop{
+   width:1120px;
+   height:186px;
+   background:#FFFFFF;
+   margin:0 auto;
+   line-height:186px;
+}
+.img31{
+    width:330px;
+	height:186px;
+    margin-left:30px;
+	float:left;
+	overflow:hidden;
+}
+#imgs1{
+  width:330px;
+  height:186px;
+  text-align:center;
+  vertical-align:middle;
+}
+#imgs2,#imgs3{
+   width:330px;
+	height:166px;
+}
+
+/****************************/
+
+
+/****************************/
+.msgbox{
+   width:100%;
+   height:163px;
+   background:#FFFFFF;
+   margin-top:48px;
+   border-top:1px solid #ccc;
+}
+.msg{
+   width:1120px;
+   height:163px;
+   background:#FFFFFF;
+   margin:0 auto;
+}
+.msgtop{
+   margin-top:32px;
+   margin-bottom:25px;
+   font-size:18px;
+}
+.msg-con{
+   display:block;
+   float:left;
+   margin-right:80px;
+}
+.msg-con li a{
+   font-size:12px;
+   color:#434d55
+}
+.msg-con li a:hover{
+    color:blue;
+}
+.msgright{
+   display:block;
+   float:right;
+   text-align:right;
+}
+.zx{
+     text-align:right;
+}
+.zixun{
+    display:block;
+    width:97px;
+    height:34px;
+    margin-left:113px;
+	margin-top:32px;
+	padding-left:20px;
+    background:url(../image/need-help-button.png) 0 0 no-repeat;
+    color:white;
+    font-size:16px;
+    text-align:center;
+    line-height:34px;
+}
+.tel{
+   font-size:28px;
+   color:#333;
+   line-height:51px;
+}
+.hf{
+   font-size:12px;
+   color:#999999;
+   text-align:right;
+}
+/****************************/
+.copyrightbox{
+   width:100%;
+   height:62px;
+   background:#F1F1F1;   
+}
+.copyright{
+   width:1120px;
+   height:62px;
+   background:#F1F1F1;
+   margin:0 auto;
+
+}
+.banquanbox{
+   width:700px;
+   height:62px;
+   display:block;
+   float:left; 
+}
+.banquan{
+   width:700px;
+   height:4px;
+   margin-top:19px;
+}
+.banquan1{
+   font-size:12px;
+   color:#666;
+   float:left;
+   margin-right:11px;
+}
+.link{
+   color:#84a3e3;
+}
+.banquanxia{
+   display:block;
+   font-size:11px;
+   color:#999999;
+   margin-top:14px;
+}
+.bqx1{
+   float:left;
+
+}
+.lang{
+   width:120px;
+   height:30px;
+   float:right;
+   margin-top:12px;
+}
+.bottomnav-right{
+   float:right;
+   padding-top:25px;
+}
+.bottomimgs{
+  height:11px;
+  width:14px;
+  overflow:hidden;
+  margin-top:13px;
+  margin-right:9px;
+  float:left;
+}
+
+.bottom1{
+   width:24px;
+   height:30px;
+   float:left;
+}
+.bottomsl{
+   color:#333;
+   font-size:12px;
+   line-height:38px;
+}
+
+.bjts{
+	width:14px;
+	height:30px;
+    float:right;
+}
+.bjt:hover{
+  transform:rotate(180deg);
+  transition:all 2s linear;
+}
+.bjt{
+   width:7px;
+   height:5px;
+   display:block;
+   float:right;
+   line-height:30px;
+   margin-top:16px;
+   margin-right:20px;
+}
